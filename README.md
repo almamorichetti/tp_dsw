@@ -8,7 +8,7 @@
 ### Repositorios
 ## Tema
 ### Descripción
-
+<2 a 6 líneas describiendo el negocio (menos es más)>
 ### Modelo
-
+<Nota: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con Mermaid en lugar de imágenes.>
 
