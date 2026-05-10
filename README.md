@@ -6,6 +6,7 @@
 - 52509 - García Morichetti, Alma
 
 ### Repositorios
+< links front y back >
 ## Tema
 ### Descripción
 <2 a 6 líneas describiendo el negocio (menos es más)>
