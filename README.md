@@ -11,8 +11,9 @@
 ### Descripción
 Sistema de gestión de pedidos take away para restaurantes y locales de comida rápida, que permite administrar todo el proceso desde que el cliente ingresa a la página, selecciona productos y realiza el pedido, hasta que retira su compra en el local. El sistema contará con dos tipos de usuarios: cliente y administrador. El cliente podrá registrarse, consultar el menú, realizar pedidos y hacer seguimiento del estado de su compra en tiempo real, mientras que el administrador podrá gestionar productos, pedidos y actualizar los estados durante el ciclo de preparación y entrega, optimizando la organización interna y reduciendo los tiempos de espera en el retiro de pedidos.
 ### Modelo
-https://drive.google.com/file/d/1izJ8fW947RB_6IQvgygHRGJ6RTzTTGaf/view?usp=sharing
-<img width="1064" height="550" alt="image" src="https://github.com/user-attachments/assets/82d0509d-aea0-4255-9e4f-f3d9d43b9500" />
+https://drive.google.com/file/d/1o97zNE3pkwVYRu9881Ir1Eqa4CfUCvDd/view?usp=sharing
+<img width="1172" height="620" alt="image" src="https://github.com/user-attachments/assets/4521a15b-8339-4b69-8414-08735e8271b9" />
+
 ## Alcance Funcional 
 
 ### Alcance Mínimo
