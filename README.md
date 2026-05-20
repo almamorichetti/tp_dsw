@@ -17,8 +17,6 @@ https://drive.google.com/file/d/1izJ8fW947RB_6IQvgygHRGJ6RTzTTGaf/view?usp=shari
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
 |Req|Detalle|
 |:-|:-|
