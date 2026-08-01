@@ -2,21 +2,30 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "app.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "build": "tsc -p ./tsconfig.json",
+    "start:dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/index.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@mikro-orm/core": "^6.6.16",
+    "@mikro-orm/mysql": "^6.6.16",
     "express": "^5.2.1",
-    "mysql2": "^3.22.6",
-    "sequelize": "^6.37.8"
+    "mysql2": "^3.22.6"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.1.3"
   }
+
+
 }
