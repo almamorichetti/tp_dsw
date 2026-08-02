@@ -1,7 +1,7 @@
 import express from "express";
 import { MikroORM } from "@mikro-orm/mysql";
-
-const app = express();
+import mikroOrmConfig from "./config/mikro-orm.js";
+const app = express();  //función
 
 app.use(express.json());
 
@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 
 async function startServer() {
     try {
-        const orm = await MikroORM.init();
+        const orm = await MikroORM.init(mikroOrmConfig);
 
         console.log("Conexión a la base de datos exitosa");
 
