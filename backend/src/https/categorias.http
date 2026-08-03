@@ -1,0 +1,14 @@
+###obtener todas las categorias
+GET http://localhost:3000/api/entities/categorias
+
+####obtener una categoria por id
+GET http://localhost:3000/api/entities/categorias/2
+
+###crear una categoria
+POST http://localhost:3000/api/entities/categorias
+Content-Type: application/json
+
+{
+    "nroCategoria": 3,
+    "descCategoria": "Acompañamientos"
+}
