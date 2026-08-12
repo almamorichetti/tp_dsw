@@ -33,7 +33,7 @@ Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD Usuario<br>2. CRUD Pedido<br>3. CRUD Producto|
-|CRUD dependiente|1. CRUD Precio {depende de} CRUD Producto<br>2. CRUD ... {depende de} CRUD ...|
+|CRUD dependiente|1. CRUD Precio {depende de} CRUD Producto<br>2. CRUD Queja {depende de} CRUD Pedido|
 |Listado<br>+<br>detalle| 1. Listado de producto sin stock, para solicitar a proveedores => detalle CRUD Producto<br> 2. Listado de Pedidos filtrado por fecha => detalle CRUD Pedidos y CRUD Estados|
 |CUU/Epic|1. Realizar un pedido registrado como Cliente<br>2. Marcar con estado "Entregado" un Pedido|
 
